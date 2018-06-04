@@ -10,3 +10,12 @@ button.addEventListener("click", function(){
    // alert(nouLi);
     ulLista.appendChild(nouLi);
 });
+
+input.addEventListener("enter", function(x){
+       if(this.x){
+        var nouLi = document.createElement("li");
+        nouLi.textContent = input.value;
+       // alert(nouLi);
+        ulLista.appendChild(nouLi);
+       }
+});
