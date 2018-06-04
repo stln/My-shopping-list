@@ -11,11 +11,10 @@ button.addEventListener("click", function(){
     ulLista.appendChild(nouLi);
 });
 
-input.addEventListener("enter", function(x){
-       if(x){
+input.addEventListener("enter", function(){
+      
         var nouLi = document.createElement("li");
         nouLi.textContent = input.value;
-       // alert(nouLi);
         ulLista.appendChild(nouLi);
-       }
+       
 });
