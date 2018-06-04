@@ -12,7 +12,7 @@ button.addEventListener("click", function(){
 });
 
 input.addEventListener("enter", function(x){
-       if(this.x){
+       if(x){
         var nouLi = document.createElement("li");
         nouLi.textContent = input.value;
        // alert(nouLi);
